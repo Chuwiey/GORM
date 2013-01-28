@@ -25,3 +25,7 @@ https://github.com/jadell/Neo4jPHP
 // I've added a couple of things to Neo4jPHP which allow for cypher batches and accessing returned data blocks in an easier manner
 // I'm working on getting that pulled in...
 
+The excellent graph DB I am using for this project is Neo4j:
+https://github.com/neo4j/neo4j
+
+Of course the same concept could be transported to a different db as well...
