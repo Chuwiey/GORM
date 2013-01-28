@@ -4,7 +4,6 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
  * Edges Model definition
- * @author Ben Fonarov
 */
 abstract class Edges extends \GraphModel implements \Iterator
 {
