@@ -4,7 +4,6 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
  * Nodes Model definition
- * @author Ben Fonarov
 */
 abstract class Nodes extends \GraphModel
 {
