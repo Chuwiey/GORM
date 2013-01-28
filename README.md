@@ -9,11 +9,18 @@ A graph is a set of connected edges and nodes.
 
 The second problem is to be able to utilize the inherent relationships in graphs.
 So, I basically did the same thing you are able to do with an ORM, but for a graph, and extended it a bit.
+My basic premise, just like Neo4j's is that nodes and edges are both "first class citizens". This means that you can start with an edge,
+and get to nodes and keep on going. However, the example I gave is one where edges are used as labels with parameters to enhance the relationship
+between nodes. Therefore, you can reach nodes through edges with certain labels and basically traverse the graph as if you were dealing with objects.
 
-Let's say you were dealing with facebook data, with GORM you can do this:
+For isntance, let's say you were dealing with facebook data, with GORM you can do this:
 $user->friends->likes->find('url'); or $user->comments->map(); (to get all of them)
 
 Please consider that this is a Work in Progress, and feel free to fork and add your own stuff...
+
+I have added to examples for actual data models within /GraphModel/Models
+As a convention I name node structures with a small "o" in the file name (as in oUser.php)
+and edges are named with "_" in the file name (as in _Friend.php)
 
 Needs to be done:
 * Exception handling
