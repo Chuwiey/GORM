@@ -18,3 +18,10 @@ Please consider that this is a Work in Progress, and feel free to fork and add y
 Needs to be done:
 * Exception handling
 * Better handling for setters and getters
+
+
+This works alongside Josh Adell's excellent neo4jphp: 
+https://github.com/jadell/Neo4jPHP
+// I've added a couple of things to Neo4jPHP which allow for cypher batches and accessing returned data blocks in an easier manner
+// I'm working on getting that pulled in...
+
